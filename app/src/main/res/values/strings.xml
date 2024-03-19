@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">IndividualAssignment</string>
+    <string name="part_2">Part 2</string>
+    <string name="part_1">Part 1</string>
+    <string name="number">Number</string>
+    <string name="compose">Compose</string>
+    <string name="result">Result</string>
+    <string name="number_1">Number 1</string>
+    <string name="number_2">Number 2</string>
+    <string name="compare">Compare</string>
+    <string name="numbers">Numbers</string>
+    <string name="sort_ascending">Sort Ascending</string>
+    <string name="sort_descending">Sort Descending</string>
+    <string name="compare_numbers">Compare Numbers</string>
+    <string name="order_numbers">Order Numbers</string>
+    <string name="compose_numbers">Compose Numbers</string>
+</resources>

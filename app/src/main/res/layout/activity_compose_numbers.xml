@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="16dp"
+android:gravity="center"
+    android:background="@drawable/math4"
+xmlns:tools="http://schemas.android.com/tools"
+tools:context=".ComposeNumbersActivity">
+
+<TextView
+    android:id="@+id/textNumber"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="24sp"
+    android:textStyle="bold"
+    android:textColor="@android:color/black"
+    android:text="Enter a Number:"
+    android:layout_marginBottom="16dp"/>
+
+<EditText
+    android:id="@+id/editPart1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter First Number"
+    android:inputType="numberDecimal"
+    android:layout_marginBottom="8dp"/>
+
+<EditText
+    android:id="@+id/editPart2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter Second Number"
+    android:inputType="numberDecimal"
+    android:layout_marginBottom="16dp"/>
+
+<Button
+    android:id="@+id/btnCompose"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Compose"
+    android:onClick="composeNumbers"
+    android:layout_marginBottom="16dp"/>
+
+<TextView
+    android:id="@+id/textResult"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:textStyle="italic"
+    android:textColor="@android:color/black"/>
+
+</LinearLayout>
